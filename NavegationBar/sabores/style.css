@@ -1,0 +1,162 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+
+    background-image: linear-gradient( to right,#595959, #CFCFCF, #8a8a8a,#595959);
+    background-repeat: x;
+
+}
+.iconArrow{
+    margin:5px
+}
+
+#container{ 
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+    max-width:1000px;
+    Flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around
+
+}
+#container-pai{
+    display: flex;
+    justify-content: center;
+}
+
+/* layout Pizza*/
+.box-model{
+    background-color:white;
+    width:320px;
+    height:280px;
+    overflow:hidden;
+    border-radius:5px;
+    margin-bottom: auto;
+    margin-top:100px;
+    box-shadow: 0.2px 2.5px 0.2px 0.2px rgb(136, 136, 136);
+    
+    
+}
+
+.infModel{
+    display: flex;
+    justify-content:initial;
+    padding:15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    justify-content: space-between;
+    cursor:pointer
+}
+
+.price{
+    margin-left:px;
+}
+
+.imgPizza{
+    width:330px;
+    height:230px;
+    border-radius:20px;
+    
+}
+
+.imgModel{
+    background-image: url("img/marguerida.png");
+    background-size:cover;
+    width:320px;
+    height:230px;
+    border-radius:5px;
+    position:absolute;
+}
+
+.descModel{
+    background-color:rgba(31, 31, 31, 0.144);
+    padding:15px;
+    margin-top:180px;
+    backdrop-filter: blur(2px);
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    height:20px;
+    text-align: center;
+}
+.descModel p {
+    margin-top:10px
+}
+
+.carLink{
+    outline: none;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px
+}
+
+.carImg{
+    height:40px;
+    width:50px;
+}
+
+/*calabresa*/
+.imgModel2{
+    background-image: url("img/calabresa.jpg");
+    background-size:cover;
+    width:320px;
+    height:230px;
+    border-radius:5px;
+    position:absolute;
+}
+
+/*calabresa*/
+.imgModel2{
+    background-image: url("img/calabresa.jpg");
+    background-size:cover;
+    width:320px;
+    height:230px;
+    border-radius:5px;
+    position:absolute;
+}
+
+/*portuguesa*/
+.imgModel3{
+    background-image: url("img/portuguesa.jpg");
+    background-size:cover;
+    width:320px;
+    height:230px;
+    border-radius:5px;
+    position:absolute;
+}
+
+/*Catupiry*/
+.imgModel4{
+    background-image: url("img/ctupiry.jpg");
+    background-size:cover;
+    width:320px;
+    height:230px;
+    border-radius:5px;
+    position:absolute;
+}
+
+/*4 Queijos*/
+.imgModel5{
+    background-image: url("img/4queijos.jpg");
+    background-size:cover;
+    width:320px;
+    height:230px;
+    border-radius:5px;
+    position:absolute;
+}
+
+/*Vegan*/
+.imgModel6{
+    background-image: url("img/vegan.png");
+    background-size:cover;
+    width:320px;
+    height:230px;
+    border-radius:5px;
+    position:absolute;
+}
+

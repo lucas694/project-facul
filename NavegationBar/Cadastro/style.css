@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+header{
+    background-color: #303030;
+    color:white;
+    height:55px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight:bold;
+    text-align: center;
+    padding:20px
+}
+
+#container-pai{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#header-cadastro {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.title{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#cadastro-pessoal{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    width:48%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#cadastro-endereco{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    width:48%;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    padding: 0 10px;
+    text-align: left;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #000;
+    border: 1px solid #000;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.form-full {
+    width: 100%;
+}
+
+.form-half {
+    width: 48%;
+}
+
+.form-large{
+    width:95%;
+    margin-bottom: 40px;
+}
+
+.form-control {
+    display: flex;
+    margin: 10px 0 10px;
+    flex-direction: column;
+}
+
+.genero-dataN{
+    height: 40px;
+    padding: 0 10px;
+    text-align: left;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #000;
+    border: 1px solid #e1e1e1;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.form-container {
+    flex: 1; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.form-button {
+    width: 100%;
+    padding: 10px;
+    color: #FFF;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #000;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    cursor:pointer;
+    transition: ease-out 1s;
+}
+
+.form-button:hover{
+    box-shadow: inset 600px 0 0 0 #B7C4CF;
+}
+
+

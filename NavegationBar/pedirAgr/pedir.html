@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Passion+One&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <a href="../../home.html"><header>
+        <svg
+    width="25px"
+    height="25px"
+    class="iconArrow"
+    viewBox="0 0 448 512"
+    xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+      fill="#FFF"
+      d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+  />
+
+</svg></a>
+            Realize seu Pedido
+    </header>
+
+
+    <div id="container">
+
+        <!--Titulo Promoções-->
+        <div id="promoBox">
+            <div id="promoTitle">
+                <h3>Promoções</h3>
+            </div>
+
+            <!--Promoção Pizza e refri-->
+            <a onclick="abrirModal(this)" >
+                <div class="infBox">
+                    <div class="leftInf">
+                        <img class="imgPizza"src="img/promocao.jpg">
+                        <H3> PIZZA GRANDE E COCA COLA</H3>
+                    </div>
+
+                    <div class="rightInf">
+                        <h1>A partir de R$ 62,00</h1>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <!--Titulo Pizza-->
+        <div id="pizzaBox">
+            <div id="pizzaTitle">
+                <h3>Pizzas</h3>
+            </div>
+        </div>
+
+
+        <!--Sabores Pizzas-->
+
+                <!--Marguerita-->
+                <a onclick="abrirModal(this)">
+                    <div class="infBox">
+                        <div class="leftInf">
+                            <img class="imgPizza"src="img/marguerida.png">
+                            <H3> PIZZA GRANDE DE MARGUERITA</H3>
+                        </div>
+
+                        <div class="rightInf">
+                            <h1>A partir de R$ 55,00</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <hr>
+
+                <!--Calabresa-->
+                <a onclick="abrirModal(this)">
+                    <div class="infBox">
+                        <div class="leftInf">
+                            <img onclick="onClick(this)" class="imgPizza"src="img/calabresa.jpg">
+                            <H3> PIZZA GRANDE DE CALABRESA</H3>
+                        </div>
+
+                        <div class="rightInf">
+                            <h1>A partir de R$ 55,00</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <hr>
+
+                <!--Portuguesa-->
+                <a  onclick="abrirModal(this)">
+                    <div class="infBox">
+                        <div class="leftInf">
+                            <img class="imgPizza"src="img/portuguesa.jpg">
+                            <H3> PIZZA GRANDE PORTUGUESA</H3>
+                        </div>
+
+                        <div class="rightInf">
+                            <h1>A partir de R$ 55,00</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <hr>
+
+                <!--Catupiry-->
+                <a onclick="abrirModal(this)">
+                    <div class="infBox">
+                        <div class="leftInf">
+                            <img class="imgPizza"src="img/ctupiry.jpg">
+                            <H3> PIZZA GRANDE DE CATUPIRY</H3>
+                        </div>
+
+                        <div class="rightInf">
+                            <h1>A partir de R$ 55,00</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <hr>
+
+                <!--4 Queijos-->
+                <a onclick="abrirModal(this)">
+                    <div class="infBox">
+                        <div class="leftInf">
+                            <img class="imgPizza" src="img/4queijos.jpg">
+                            <H3> PIZZA GRANDE 4 QUEIJOS</H3>
+                        </div>
+
+                        <div class="rightInf">
+                            <h1>A partir de R$ 55,00</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <hr>
+
+                <!--Vegana-->
+                <a onclick="abrirModal(this)">
+                    <div class="infBox">
+                        <div class="leftInf">
+                            <img class="imgPizza" src="img/vegan.png" >
+                            <H3> PIZZA GRANDE VEGANA</H3>
+                        </div>
+
+                        <div class="rightInf">
+                            <h1>A partir de R$ 55,00</h1>
+                        </div>
+                    </div>
+                </a>
+
+
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content" id="img01">
+                    <span class="close">&times;</span>
+
+                    <div id="aaa">
+
+                    </div>
+                    <a href="pedir.html">
+                        <div class="infBox">
+                            <div class="leftInf">
+                                <img id="imagemPizza" class="imgPizza" src="">
+                                <H3 id="nomePizza"> PIZZA GRANDE VEGANA </H3>
+                            </div>
+
+                            <div class="rightInf">
+                                <h1 id="precoPizza">A partir de R$ 55,00</h1>
+                            </div>
+
+                        </div>
+                    </a>
+
+                    <!-- input finalização-->
+
+                    <!--input endereço-->
+                    <div id="div-entrega">
+                        <p>Endereço de Entrega</p>
+                        <div id="endereco">
+                            <input type="text" class="input-endereco">
+                        </div>
+                   </div>
+
+                   <!--total pedido-->
+                   <div id="container-total">
+                        <div id="subtotal">
+                            <p>Subtotal</p>
+                            <p class="rightInf" id="preco" >R$55,00</p>
+                        </div>
+
+                        <div id="frete">
+                            <p>Taxa de Entrega</p>
+                            <p class="rightInf">R$5,00</p>
+                        </div>
+
+                        <div id="total">
+                            <p>Total</p>
+                            <p class="rightInf" id="precoTotal">R$60,00</p>
+                        </div>
+                   </div>
+
+                   <!--forma de pagamento-->
+                   <div id="pagamento">
+                        <h3>Selecione a forma de pagamento</h3>
+                        <select class="select-input">
+                            <option value="0" disabled="" selected="">Forma de Pagamento
+                            </option><!-- --><option value="2">Pagar com dinheiro</option>
+                            <option value="3">Pagar na Maquininha </option>
+                        </select>
+                   </div>
+
+                   <!--cpf do pedido-->
+                   <div id="cpf-pedido">
+                        <h3>CPF/CNPJ</h3>
+                            <input type="text" class="input-cpf">
+                    </div>
+
+                    <!--botao finalização-->
+                    <div id="div-button">
+                        <button class="button-finish">Fazer o pedido</button>
+                    </div>
+
+                </div>
+            </div>
+
+    <script src="myscripts.js"></script>
+
+    </div> <!--container-->
+</body>
+</html>

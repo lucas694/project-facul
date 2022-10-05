@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Passion+One&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    <div id="container-pai">
+        <div id="container">
+
+            <!--Mensagem ao topo-->
+            <div id="header-cadastro">
+                <h1>Cadastro</h1>
+                <p>Por favor, preencha os campos abaixo para criar sua conta na loja</p>
+            </div>
+
+
+            <div class="form-container">
+                
+                 <!--Dados pessoais Div esquerda-->
+            <div id="cadastro-pessoal">
+                <div class="title">
+                    <p>Dados Pessoais</p>
+                    <hr>
+                </div>
+
+                <div class="form-row">
+                    <!-- Email-->
+                    <div class="form-control form-half">
+                        <label for="Email">E-Mail <span>*</span></label>
+                        <input type="e-mail" name="email" placeholder="E-mail">
+                    </div>
+
+                    <!--CPF-->
+                    <div class="form-control form-half">
+                        <label for="CPF">CPF <span></span>*</label>
+                        <input type="text" name="cpf" placeholder="CPF">
+                    </div>
+                </div>
+
+                <!--Nome -->
+                <div class="form-control">
+                    <label for="Nome">Nome Completo <span></span>*</label>
+                    <input type="text" name="nome" placeholder="">
+                </div>
+
+                <div class="form-row">
+                    <!--Data de nascimento-->
+                    <form class="form-control form-half">
+                        <label for="Nome">Data de nascimento: <span></span>*</label>
+                        <input class="genero-dataN"type="date" name="nascimento">
+                    </form> 
+
+                    <!--Genero-->
+                    <div class="form-control form-half">
+                        <label for="Genero">Gênero <span>*</span></label>
+                        <select class="genero-dataN" id="Genero" name="Genero"><option value="">Selecione...</option>
+                            <option value="2">Feminino</option>
+                            <option value="1">Masculino</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <!--Senha-->
+                    <div class="form-control form-half">
+                        <label for="Senha">Informe a Senha <span></span>*</label>
+                        <input type="password" name="senha" placeholder="">
+                    </div>
+
+                    <!-- Confirmar senha-->
+                    <div class="form-control form-half">
+                        <label for="confirma Senha">Confirme a Senha <span></span>*</label>
+                        <input type="password" name="senha" placeholder="">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <!--Telefone Principal-->
+                    <div class="form-control form-half">
+                        <label for="Telefone">Telefone Principal<span></span>*</label>
+                        <input type="tel" name="Telefone" placeholder="">
+                    </div>
+
+                    <!--Telefone Secundario-->
+                    <div class="form-control form-half">
+                        <label for="Telefone">Telefone Secundario<span></span>*</label>
+                        <input type="tel" name="Telefone" placeholder="">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <!--Dados de endereço Div Diretia-->
+            <div id="cadastro-endereco">
+                <div class="title">
+                    <p>Dados Pessoais</p>
+                    <hr>
+                </div>
+
+                <div class="form-row">
+                    <!--Nome -->
+                    <div class="form-control form-full" >
+                        <label for="Nome">Endereço <span></span>*</label>
+                        <input type="text" name="Endereço" placeholder="">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <!--CPF-->
+                    <div class="form-control form-half">
+                        <label for="CEP">CEP <span></span>*</label>
+                        <input type="text" name="CEP" placeholder="">
+                    </div>
+
+                    <!--Numero casa-->
+                    <div class="form-control form-half">
+                        <label for="numero">Numero:  <span></span>*</label>
+                        <input type="text" name="Numero" placeholder="">
+                    </div>
+                </div>
+
+                <button class="form-button">
+                    Cadastrar
+                </button>
+
+
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,300 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    padding:10px;
+    background-color:black;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+
+
+#promoTitle{
+    padding:15px;
+    background-color:black;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin-top:3%;
+}
+
+
+#pizzaTitle{
+    padding:15px;
+    background-color:black;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.imgPizza{
+    height:130px;
+    width:200px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.imagemPizza{
+    height:130px;
+    width:200px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+#imgPizza{
+    height:130px;
+    width:200px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.infBox{
+    height:130px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    cursor:pointer;
+
+}
+
+.leftInf{
+    width:70%;
+    height:130px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightInf{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.leftInf h3{
+    margin:55px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.rightInf h1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-align: right;
+    color: #746D69;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #F9F9F9;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    border-radius:15px;
+  }
+
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*     Modal informaçoes    */
+
+/*endereço*/
+#div-entrega{
+    border-radius:10px;
+    background-color:#0e131a;
+    text-align: center;
+    padding: 12px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 31%);
+    margin-top:5px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size:14px
+}
+#endereco{
+    background-color: white;
+    width: 98%;
+    align-items: center;
+    border-radius: 5px;
+    padding:5px;
+    color:black;
+    margin-top:15px;
+
+
+}
+.input-endereco{
+    width: 97%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 31%);
+    padding: 10px;
+    align-items: center;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+/*  Total do pedido*/
+#container-total{
+    background-color:#0e131a;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding:10px;
+    color:white;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 31%);
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size:13px
+}
+
+#subtotal{
+    display: flex;
+    flex-direction: row;
+    height:45px;
+    align-items: center;
+}
+
+#frete{
+    display: flex;
+    flex-direction: row;
+    height:45px;
+    align-items: center;
+
+}
+
+#total{
+    display: flex;
+    flex-direction: row;
+    height:45px;
+    align-items: center;
+}
+
+/*Pagamentoa*/
+#pagamento{
+    margin-top: 15px;;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.select-input{
+    width: 100%;
+    display: block;
+    border: none;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 31%);
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*CPF*/
+#cpf-pedido{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    color:black;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.input-cpf{
+    width: 97.5%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 31%);
+    padding: 10px;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+/*Botao de finalização*/
+#div-button{
+    width:100%;
+    margin-top:10px;
+}
+
+.button-finish{
+    width:100%;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 5px 6px;
+    height: 40px;
+    text-align: center;
+    color:white;
+    cursor:pointer;
+    font-weight: 700;
+    background-color:#11171f;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    transition: ease-out 1s;
+}
+
+.button-finish:hover{
+    box-shadow: inset 900px 0 0 0 #B7C4CF;
+    color:rgb(41, 41, 41);
+    font-size:15px;
+    letter-spacing: 2px;
+}
