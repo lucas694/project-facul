@@ -8,8 +8,16 @@ body{
     background-repeat: x;
 
 }
+header{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
 .iconArrow{
-    margin:5px
+    margin:5px;
+    margin-top: 100px;
 }
 
 #container{ 
